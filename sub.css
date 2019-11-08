@@ -1,15 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
-  display: flex;
+  background: #222;
   height: 100vh;
+}
+
+p{
+  margin-top:300px;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #222;
+  margin-left:200px;
+  margin-right:200px;
+  line-height: 20px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 4px 0;
+  transition: 0.5s;
 }
 
 ul {
+  margin-top:200px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -18,16 +34,7 @@ ul {
 
 li {
     padding: 6px 0;
-    position: relative;
-    display: block;
-    text-decoration: none;
-    font-family: "Lato";
-    color: #ecf0f1;
-    text-transform: uppercase;
-    padding: 4px 0;
-    transition: 0.5s;
 }
-
 a {
   position: relative;
   display: block;
